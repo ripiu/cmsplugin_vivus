@@ -1,0 +1,19 @@
+{% load cms_tags staticfiles sekizai_tags %}
+<div>
+  <object class="ripiu-vivus"
+          data="{{ instance.svg_file.url }}"
+          data-animation-type="{{ conf.animation_type }}"
+          data-start="{{ conf.start }}"
+          data-duration="{{ conf.duration }}"
+          data-delay="{{ conf.delay }}"
+          data-dash-gap="{{ conf.dash_gap }}"{% if conf.force_render %}
+          data-force-render="{{ conf.force_render }}"{% endif %}
+          data-reverse-stack="{{ conf.reverse_stack }}"
+          data.self-destroy="{{ conf.self_destroy }}">
+    {% for plugin in instance.child_plugin_instances %}
+      {% render_plugin plugin %}
+    {% endfor %}
+  </object>
+</div>
+{% addtoblock "js" %}<script src="//cdn.jsdelivr.net/npm/vivus@latest/dist/vivus.min.js"></script>{% endaddtoblock %}
+{% addtoblock "js" %}<script src="{% static "ripiu/cmsplugin_vivus/js/vivus.js" %}?v={{ version }}"></script>{% endaddtoblock %}

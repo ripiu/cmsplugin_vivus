@@ -1,0 +1,8 @@
+include AUTHORS
+include LICENSE
+include README.rst
+include HISTORY
+recursive-include ripiu/cmsplugin_vivus/migrations *
+recursive-include ripiu/cmsplugin_vivus/templates *
+recursive-include ripiu/cmsplugin_vivus/static *
+recursive-include ripiu/cmsplugin_vivus/locale *

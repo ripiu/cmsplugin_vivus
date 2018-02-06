@@ -1,0 +1,141 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-02-06 11:52+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: cms_plugins.py:14
+msgid "Vivus animation"
+msgstr "Animazione Vivus"
+
+#: models.py:18
+msgid "Delayed start"
+msgstr "Partenza ritardata"
+
+#: models.py:19
+msgid "Synchronous"
+msgstr "Sincronizzata"
+
+#: models.py:20
+msgid "One by one"
+msgstr "Uno per uno"
+
+#: models.py:30
+msgid "Start once the SVG is in the viewport"
+msgstr "Parti quando l'SVG è contenuto nella finestra"
+
+#: models.py:31
+msgid "Start manually"
+msgstr "Avvia manualmente"
+
+#: models.py:32
+msgid "Start right away"
+msgstr "Avvia subito"
+
+#: models.py:36
+msgid "animation type"
+msgstr "tipo animazione"
+
+#: models.py:38
+msgid "Defines what kind of animation will be used."
+msgstr "Definisce il tipo di animazione da usare."
+
+#: models.py:42
+msgid "SVG file"
+msgstr "File SVG"
+
+#: models.py:46
+msgid "animation trigger"
+msgstr "innesco"
+
+#: models.py:48
+msgid "Defines how to trigger the animation."
+msgstr "Definisce come far partire l'animazione."
+
+#: models.py:52
+msgid "duration"
+msgstr "durata"
+
+#: models.py:54
+msgid "Animation duration, in frames."
+msgstr "Durata dell'animazione, in fotogrammi."
+
+#: models.py:58
+msgid "delay"
+msgstr "ritardo"
+
+#: models.py:60
+msgid ""
+"Time between the drawing of first and last path, in frames (only for delayed "
+"animations)."
+msgstr ""
+"Tempo tra il disegno del primo e dell'ultimo tracciato, in fotogrammi (solo "
+"per animazioni a partenza ritardata)"
+
+#: models.py:74
+msgid "dash gap"
+msgstr "spazio fra i trattini"
+
+#: models.py:76
+msgid ""
+"Whitespace extra margin between dashes. Increase it in case of glitches at "
+"the initial state of the animation."
+msgstr ""
+"Margine aggiuntivo tra i trattini. Aumentalo in caso di problemi nella fase "
+"iniziale dell'animazione."
+
+#: models.py:81
+msgid "force render"
+msgstr "forza la presentazione"
+
+#: models.py:82
+msgid ""
+"Force the browser to re-render all updated path items. By default, the value "
+"is true on IE only."
+msgstr ""
+"Forza il browser a ridisegnare tutti i tracciati modificati. Se non "
+"impostato il valore è vero solo per IE."
+
+#: models.py:87
+msgid "reverse stack"
+msgstr "inverti"
+
+#: models.py:88
+msgid ""
+"Reverse the order of execution. The default behaviour is to render from the "
+"first 'path' in the SVG to the last one. This option allow you to reverse "
+"the order."
+msgstr ""
+"Inverti l'ordine di esecuzione. Il comportamento predefinito è di disegnare "
+"dal primo tracciato nell'SVG all'ultimo. Questa opzione permette di "
+"invertire l'ordine."
+
+#: models.py:94
+msgid "self destroy"
+msgstr "autodistruggi"
+
+#: models.py:95
+msgid "Removes all extra styling on the SVG, and leaves it as original."
+msgstr "Rimuovi gli stili aggiuntivi dall'SVG, e lascialo come in originale."
+
+#: models.py:103
+msgid "Drawing animation on SVG"
+msgstr "Animazione disegno su SVG"
+
+#: models.py:104
+msgid "Drawing animations on SVG"
+msgstr "Animazioni disegno su SVG"
