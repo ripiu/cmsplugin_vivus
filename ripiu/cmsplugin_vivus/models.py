@@ -39,7 +39,8 @@ class VivusPlugin(CMSPlugin):
     )
 
     svg_file = FilerFileField(
-        blank=False, null=False, verbose_name=_('SVG file')
+        blank=False, null=False, verbose_name=_('SVG file'),
+        on_delete=models.CASCADE
     )
 
     start = models.CharField(
